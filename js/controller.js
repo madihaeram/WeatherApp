@@ -2,7 +2,7 @@ angular.module('weatherApp')
     .controller('WeatherController', ['$scope', '$http', function($scope, $http) {
         
         $scope.getWeather = function() {
-            var apiKey = 'YOUR_API_KEY'; // Replace with your API key
+            var apiKey = '97f13304fdd3b658ba18d5f8144bba5d'; // Replace with your API key
             var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + $scope.location + '&appid=' + apiKey + '&units=metric';
 
             // Get current weather
