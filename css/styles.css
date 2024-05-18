@@ -65,3 +65,43 @@ button:hover {
 .forecast p {
     margin-bottom: 10px;
 }
+
+
+/* Media Query for Small Devices (e.g., Mobile Phones) */
+@media (max-width: 767px) {
+    /* Adjust font sizes and spacing for small screens */
+    h1 {
+        font-size: 24px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    /* Center-align forecast items */
+    .forecast p {
+        text-align: center;
+    }
+}
+
+/* Media Query for Medium and Large Devices (e.g., Tablets and Desktops) */
+@media (min-width: 768px) {
+    /* Increase font sizes and spacing for medium and large screens */
+    h1 {
+        font-size: 32px;
+    }
+
+    input[type="text"] {
+        width: 300px;
+        margin-right: 10px;
+    }
+
+    button {
+        width: auto;
+    }
+}
